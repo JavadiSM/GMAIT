@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(47, 43, 43);
+    color: #c9c9c9; /* Light gray text for contrast */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for a coding feel */
+    line-height: 1.6; /* Improve readability */
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add some padding */
+}
+
+div {
+    background-color: #1e1e1e; /* Dark background for the div */
+    border: 1px solid #333; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding for better spacing */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Drop shadow for depth */
+    margin: 10px 0; /* Margin to separate divs */
+}
+
+/* Optional: Styling for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White color for headings */
+}
+
+/* Optional: Styling for links */
+a {
+    color: #4ca1d8; /* Light blue color for links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Optional: Code block styling */
+pre {
+    background-color: #2e2e2e; /* Darker background for code blocks */
+    color: #f8f8f2; /* Light text for code */
+    padding: 10px; /* Inner padding */
+    border-radius: 5px; /* Rounded corners */
+    overflow: auto; /* Enable scrollbar for overflow */
+}
+
+/* Optional: Styling for list elements */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    background: #3c3c3c; /* Darker background for list items */
+    margin: 5px 0; /* Spacing between list items */
+    padding: 10px; /* Padding inside list items */
+    border-radius: 5px; /* Rounded corners for list items */
+}
